@@ -22,6 +22,6 @@ class ZebraPalindromeTest < Minitest::Test
   end
 
   def test_integer_palindrome
-    assert 12321.to_s.palindrome?
+    assert 12321.palindrome?
   end
 end
