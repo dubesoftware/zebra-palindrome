@@ -8,7 +8,7 @@ module ZebraPalindrome
   private
   
     def processed_content
-      to_s.scan(/[\da-z]/i).join.downcase
+      to_s.scan(/[a-z\d]/i).join.downcase
     end
 end
 
