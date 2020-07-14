@@ -1,6 +1,6 @@
 require "zebra_palindrome/version"
 
-class String
+module ZebraPalindrome
   def palindrome?
     processed_content == processed_content.reverse
   end
@@ -8,6 +8,14 @@ class String
   private
   
     def processed_content
-      scan(/[a-z]/i).join.downcase
+      scan(/[\da-z]/i).join.downcase
     end
+end
+
+class String
+  include ZebraPalindrome
+end
+
+class Integer
+  include ZebraPalindrome
 end
