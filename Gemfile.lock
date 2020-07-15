@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    zebra_palindrome (0.1.4)
+    zebra_palindrome (0.1.23)
 
 GEM
   remote: https://rubygems.org/
