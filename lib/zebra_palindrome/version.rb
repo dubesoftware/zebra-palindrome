@@ -1,3 +1,3 @@
 module ZebraPalindrome
-  VERSION = "0.1.4"
+  VERSION = "0.1.23"
 end
